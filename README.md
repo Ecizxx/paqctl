@@ -179,9 +179,13 @@ In your Iran panel (3x-ui, Marzban, etc.), change the outbound that connects to 
 }
 ```
 
-The key changes:
-- `address`: from `FOREIGN_SERVER_IP` to `127.0.0.1` (traffic goes through GFK on the same machine)
-- `port`: from `443` to `14000` (the VIO port, NOT the original server port)
+In 3x-ui: go to **Xray Configs → Outbounds → Add Outbound** (or edit existing), and fill in:
+- **Address**: `127.0.0.1`
+- **Port**: `14000` (the VIO port, NOT the original server port)
+- **Protocol/ID/encryption**: keep the same as before (from your foreign panel's inbound)
+- **Security**: None (traffic is already encrypted inside the GFK tunnel)
+
+> **Where do I get the UUID?** From your foreign server's panel — go to **Inbounds**, find the inbound you're connecting to, and copy its UUID/ID. If you already had a working outbound before, just change the address and port — everything else stays the same.
 
 **Traffic flow:**
 ```
@@ -1292,9 +1296,13 @@ curl -fsSL https://raw.githubusercontent.com/SamNet-dev/paqctl/main/paqctl.sh | 
 }
 ```
 
-تغییرات کلیدی:
-- `address`: از `IP_SERVER_KHAREJ` به `127.0.0.1` (ترافیک از GFK روی همان ماشین عبور می‌کند)
-- `port`: از `443` به `14000` (پورت VIO، نه پورت اصلی سرور)
+در 3x-ui: به **Xray Configs → Outbounds → Add Outbound** بروید (یا اوتباند موجود را ویرایش کنید):
+- **Address**: `127.0.0.1`
+- **Port**: `14000` (پورت VIO، نه پورت اصلی سرور)
+- **Protocol/ID/encryption**: همان تنظیمات قبلی (از اینباند پنل خارج شما)
+- **Security**: None (ترافیک قبلاً درون تونل GFK رمزگذاری شده)
+
+> **UUID از کجا بیاورم؟** از پنل سرور خارج — به **Inbounds** بروید، اینباندی که می‌خواهید به آن متصل شوید را پیدا کنید و UUID/ID آن را کپی کنید. اگر قبلاً اوتباند کار می‌کرد، فقط address و port را تغییر دهید — بقیه تنظیمات همان می‌ماند.
 
 **مسیر ترافیک:**
 ```
